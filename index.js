@@ -17,5 +17,5 @@ function changeTheExcuse() {
 
 }
 function random(){
-    return Math.floor(Math.random() * (1 - 0) + 0);
+    return Math.floor(Math.random() * (2 - 0) + 0);
 }
