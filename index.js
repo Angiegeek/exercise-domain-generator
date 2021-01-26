@@ -1,4 +1,5 @@
-document.querySelector('#excuse').addEventListener('mouseover', changeTheExcuse);
+let botoncito = document.querySelector('#btn');
+botoncito.addEventListener('click', changeTheExcuse);
 
 function changeTheExcuse() {
     let pronoun = ['the', 'our'];
