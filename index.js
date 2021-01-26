@@ -5,12 +5,14 @@ function changeTheExcuse() {
     let pronoun = ['the', 'our'];
     let adj = ['great', 'big'];
     let noun = ['jogger', 'racoon'];
+    let final = ['.io', '.net'];
 
     let whoD = pronoun[random()];
     let actionD = adj[random()];
     let whatD = noun[random()];
+    let finallyD = final[random()];
 
-    let excuse = `${whoD} ${actionD} ${whatD}.com`;
+    let excuse = `${whoD}${actionD}${whatD}${finallyD}`;
 
     let paragraph = document.querySelector('#excuse');
     paragraph.innerHTML = excuse;
